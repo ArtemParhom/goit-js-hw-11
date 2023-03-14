@@ -64,3 +64,9 @@
         font-size: 10px;
     }
 }
+
+@media (max-width: 595px) {
+.photo-card {
+        width: calc((100% - 20px) / 2);
+    }
+}
